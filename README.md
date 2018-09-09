@@ -1,4 +1,4 @@
-# Forecasting-Ontario-Flu-Trend-2003-2015-
+# Forecasting-Ontario-Flu-Trend-2003-2015
 Utilize smoothing method, regression analysis, and box-jenkins models to forecast Ontario flu trends.
 In collaboration with Jennifer Luu, Lam Diep Nguyen, Nitharshan Nithianantharajah and Suchitra Ramlakhan 
 
