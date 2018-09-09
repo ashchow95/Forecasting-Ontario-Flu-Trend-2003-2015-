@@ -1,0 +1,12 @@
+flu.data <- read.csv("fludata.csv", header=TRUE)
+flu.ts <- ts(flu.data, start = c(2003,36),end = c(2015,31), frequency = 52)
+
+# Plot data
+plot(flu.ts, main="Ontario Flu Trend")
+
+# Plot decomposed data
+plot(decompose(flu.ts))
+
+# Compute and Plot the logarithm of the data
+logflu<-log(flu.ts)
+plot(logflu, main="Logarithm of the Ontario Flu Data")
